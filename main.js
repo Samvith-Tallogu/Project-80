@@ -5,5 +5,5 @@ function getParagraph1()
         inputs.push(document.getElementById("para1_input_box_" + i).value);
     }
     inputs.join(". ");
-    document.getElementById("showParagraph1").innerHTML = inputs.join(". ");
+    document.getElementById("showParagraph1").innerHTML = inputs.join(".");
 }
